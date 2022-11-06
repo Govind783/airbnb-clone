@@ -1,0 +1,121 @@
+
+
+.book-heading {
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+}
+
+.place-datails-container {
+    width: 29rem;
+    height: 38rem;
+    border-radius: 20px;
+    top: 10rem;
+    left: 4rem;
+    background-color: white !important;
+    box-shadow: rgb(0 0 0 / 12%) 7px 16px 56px;
+
+}
+
+.le{
+    left: -4rem;
+}
+
+.checkout-name {
+    position: absolute;
+    top: 3.5rem;
+    left: 17rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: transparent;
+
+}
+
+.checkout-pic {
+    position: absolute;
+    left: 1.5rem;
+    top: 2rem;
+}
+
+.checkout-stars {
+    position: absolute;
+    top: 7rem;
+    left: 17.5rem;
+    font-style: italic;
+}
+
+.checkout-line1 {
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+}
+
+.checkout-line2 {
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+}
+
+.checkout-protected {
+    top: 15rem;
+    left: 2.3rem;
+}
+
+.checkout-logo {
+    top: 14.8rem;
+    left: 18.5rem;
+}
+
+.checkout-price-heading {
+    top: 20.6rem;
+    left: 11rem;
+}
+
+.checkout-expense-title {
+    top: 24rem;
+    left: 4rem;
+    gap: 1rem;
+}
+
+.checkout-expense-calc {
+    top: 24rem;
+    left: 20rem;
+    gap: 1rem;
+}
+
+.checkout-line3 {
+    position: absolute;
+    top: 32rem;
+    left: 2rem;
+}
+
+.checkout-toal-heading {
+    top: 35rem;
+    position: absolute;
+    left: 5rem;
+}
+
+.total-checkout{
+    top: 35rem;
+    position: absolute;
+    font-weight: 600;
+    font-size: large;
+    left: 18.6rem;
+}
+
+
+.checkout-start-price{
+    position: absolute;
+    top: 10rem;
+    left: 19rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

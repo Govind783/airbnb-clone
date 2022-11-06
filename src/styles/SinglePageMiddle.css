@@ -1,0 +1,211 @@
+
+.spmLine{
+position: absolute;
+top: 98rem;
+left: 5rem;
+}
+
+.spmLine2{
+    position: absolute;
+    top: 116rem;
+    left: 5rem;
+
+}
+
+.section1-hold{
+    position: absolute;
+    top: 85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    left: 6rem;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.section2-hold{
+    position: absolute;
+    top: 102rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    left: 5.5rem;
+    width: 45%;
+
+}
+
+.section3{
+    position: absolute;
+    top: 120rem;
+}
+
+.spmLine3{
+    position: absolute;
+    top: 142rem;
+    left: 5rem;
+}
+
+.spm-star{
+    position: absolute;
+    top: 146rem;
+    left: 5.5rem;
+}
+
+.spm-rev{
+    position: absolute;
+    top: 145.7rem;
+    left: 9rem;
+    font-weight: 400;
+}
+
+.star-calc-hold{
+    position: absolute;
+    display: flex;
+    gap: 3rem;
+    left: 6rem;
+    top: 150rem;
+    width: 120rem;
+    
+}
+
+.spm-pic{
+    width: 31rem;
+}
+
+.review-hold{
+    position: absolute;
+    top: 160rem;
+    left: 10rem;
+}
+
+.spm-review{
+    width: 58rem;
+}
+
+.spm-rev-btn{
+    position: absolute;
+    top: 191rem;
+    left: 10rem;
+    width: 13rem;
+    height: 4rem;
+    font-weight: 600;
+}
+
+.agg{
+    position: absolute;
+    top: 0rem;
+    width: 100rem !important;
+}
+
+.modal-box{
+    max-height: calc(100vh- 5em);
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+    padding: 1.5rem;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    width: 60rem !important;
+    height: 60rem;
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+    max-width: 200rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-top-left-radius: var(--rounded-box, 1rem);
+    border-top-right-radius: var(--rounded-box, 1rem);
+    border-bottom-left-radius: var(--rounded-box, 1rem);
+    border-bottom-right-radius: var(--rounded-box, 1rem);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    overflow-x: hidden;
+
+}
+
+.modal-star{
+font-size: 30px;
+position: absolute;
+top: 3rem;
+}
+
+.modal-review{
+font-size: 30px;
+position: absolute;
+top: 2.5rem;
+left: 5rem;
+}
+
+.modal-pic{
+    width: 19rem;
+    position: absolute;
+    top: 8rem;
+}
+
+.modal-pic-hold{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1%;
+}
+.modal-hold{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35rem;
+    gap: 0.6rem;
+    left: 24rem;
+    top: 6rem;
+}
+
+.close-cal{
+    background-color: #ff385c;
+    height: 3.5rem;
+    width: 12rem;
+    transition: 400ms;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    top: -13rem !important;
+    position: relative;
+    left: 35.4rem;
+}
+
+.checkout-btn{
+    background-color: #ff385c;
+    height: 3.8rem;
+    width: 12rem;
+    transition: 400ms;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    left: 19rem !important;
+    margin-top: 1rem;
+    position: absolute;
+
+}
+
+.checkout-btn-after{
+    top: 24rem;
+    position: absolute;
+
+    background-color: #ff385c;
+    height: 3.8rem;
+    width: 12rem;
+    transition: 400ms;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    left: 18.5rem !important;
+    border-radius: 14px;
+}
+
+.modal-button{
+    transition: 400ms;
+}
+
+.modal-button:hover{
+ transform: scale(1.07);
+}

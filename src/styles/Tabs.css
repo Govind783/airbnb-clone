@@ -1,0 +1,623 @@
+.tabs-hold {
+  display: flex !important;
+  gap: 5% !important;
+  justify-content: center !important;
+  border-bottom: none !important;
+}
+
+.txt {
+  left: 8.6rem;
+  top: -4.5rem;
+  font-size: 30px;
+  color: #ff385c;
+
+}
+
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #4e4b4b;
+}
+
+
+
+
+
+.im {
+  width: 69% !important;
+}
+
+@media (max-width : 1250px) {
+ 
+  .im {
+    width: 8rem !important;
+  }
+
+
+  .single-page-hold {
+
+    top: 21rem !important;
+    left: 42rem !important;
+    width: 41rem !important;
+  }
+
+  .css-1xhq01z {
+    position: relative;
+    left: 5rem !important;
+  }
+
+  .single-page-main-pic {
+    width: 38rem !important;
+    top: 21rem !important;
+    border-radius: 15px;
+    left: 2rem !important;
+  }
+
+  .single-page-pic {
+    width: 10rem !important;
+  }
+
+  .features-text {
+    left: 4rem !important;
+  }
+
+  .actual-features {
+    margin-top: 1%;
+    left: 4rem !important;
+    font-style: italic;
+
+  }
+
+  .line1 {
+    left: 4rem !important;
+    display: none;
+  }
+
+  .icon-hold {
+    left: 5rem !important;
+  }
+
+  .heading-hold {
+    left: 8.4rem !important;
+  }
+
+  .description-hold {
+    left: 8.5rem !important;
+    margin-top: 0.2%;
+  }
+
+  .side-box-card {
+    left: 48rem !important;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .reserve-date-button-holder {
+    left: 54rem !important;
+  }
+
+  .days-0 {
+    left: 3rem !important;
+    z-index: -1;
+  }
+
+  .expense-title-hold {
+    left: 50rem !important;
+  }
+
+  .calculated-expense-hold {
+    left: 65rem !important;
+  }
+
+  .line-total {
+    left: 50rem !important;
+  }
+
+  .price-total-text {
+    left: 51rem !important;
+    top: 82.4rem !important;
+  }
+
+  .price-total {
+    width: 20rem;
+    top: 82.4rem !important;
+    left: 58rem !important;
+  }
+
+  .rdrStaticRanges {
+    left: 40rem !important;
+  }
+
+  .rdrDefinedRangesWrapper {
+    left: -12rem !important;
+    position: relative;
+    background-color: transparent !important;
+
+  }
+
+  .rdrCalendarWrapper {
+    left: -12rem !important;
+    position: relative;
+  }
+
+  .close-cal {
+    left: -46rem !important;
+    top: 17rem !important;
+    position: relative !important;
+    bottom: 56rem !important;
+  }
+
+  .calendarHolder2 {
+    position: relative !important;
+    left: 28rem !important;
+  }
+
+  .modal-open .modal-box,
+  .modal-toggle:checked+.modal .modal-box,
+  .modal:target .modal-box {
+    left: -23rem !important;
+    top: -12rem !important;
+  }
+
+  .checkout-btn-after {
+    margin-left: -11rem !important;
+    margin-top: 2rem !important;
+  }
+}
+
+
+@media (max-width:1050px) {
+  .logo {
+    font-size: 50px;
+  }
+
+  .txt {
+    top: -3rem;
+    left: 4rem;
+    font-size: 20px;
+  }
+
+  .css-1xhq01z {
+    left: 3rem !important;
+  }
+
+}
+
+@media (max-width : 600px) {
+
+  .tabs-hold {
+    width: 100vw !important;
+    left: 4.5rem !important;
+  }
+
+  .im {
+    width: 1.4rem !important;
+    position: absolute;
+  }
+
+  .tab1-hold {
+    left: 18.4rem !important;
+
+  }
+
+  .card {
+    margin-bottom: 4rem !important;
+  }
+
+
+
+
+  .single-page-name {
+    top: 24rem !important;
+    font-size: 20px !important;
+    left: 1rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    width: 18rem;
+  }
+
+
+  .single-page-review {
+    top: 28rem !important;
+    font-size: 20px !important;
+    left: 1rem !important;
+  }
+
+
+  .single-page-star {
+    top: 28.2rem !important;
+    font-size: 20px !important;
+    left: 4.5rem !important;
+
+  }
+
+  .single-page-rev-text {
+    top: 50rem !important;
+    display: none;
+  }
+
+  .super-host {
+    top: 50rem !important;
+    display: none;
+  }
+
+  .heart {
+    top: 50rem !important;
+    display: none;
+  }
+
+  .single-page-main-pic {
+    top: 8rem !important;
+    left: 0rem !important;
+    width: 100vw !important;
+    border-radius: 0;
+    height: 15rem;
+
+  }
+
+  .single-page-pic {
+    display: none;
+  }
+
+  .features-text {
+    top: 32rem !important;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 17rem;
+    left: 1rem !important;
+
+  }
+
+  .actual-features {
+    top: 37rem !important;
+    font-size: 17px;
+    left: 1rem !important;
+  }
+
+  .icon-hold {
+    top: 42rem !important;
+    left: 1.5rem !important;
+  }
+
+  .heading-hold {
+    top: 42rem !important;
+    left: 6rem !important;
+
+  }
+
+  .description-hold {
+    top: 44rem !important;
+    left: 6rem !important;
+    gap: 4rem !important;
+
+  }
+
+  .section1-hold {
+    top: 69rem !important;
+    left: 3rem !important;
+    width: 18rem !important;
+
+  }
+
+  .spmLine {
+    top: 64rem !important;
+    left: 0rem !important;
+  }
+
+  .spmLine2 {
+    top: 87rem !important;
+    left: 0rem !important;
+
+  }
+
+  .section2-hold {
+    top: 92rem !important;
+    width: 19rem !important;
+    left: 2rem !important;
+
+  }
+
+  .section3 {
+    top: 118rem !important;
+    width: 130vw !important;
+    left: -3rem !important;
+  }
+
+  .spmLine3 {
+    top: 114rem !important;
+    left: 0rem !important;
+  }
+
+  .c {
+    position: relative;
+    width: 120vw !important;
+    height: 26vh !important;
+    display: none;
+  }
+
+
+  /*  OTHER THINGS    */
+
+  .spm-star {
+    top: 200rem !important;
+  }
+
+  .spm-rev {
+    top: 200rem !important;
+  }
+
+  .star-calc-hold {
+    top: 220rem !important;
+  }
+
+  .review-hold {
+    top: 220rem !important;
+  }
+
+
+
+  .side-box-card {
+    left: 0.4rem !important;
+    top: 121rem !important;
+    width: 23rem !important;
+    height: 34rem !important;
+  }
+
+
+  .single-page-price {
+    font-size: 15px;
+  }
+
+  .ab {
+    left: 9rem !important;
+  }
+
+  .rev-card {
+    left: 10.7rem !important;
+    font-size: 17px !important;
+  }
+
+  .rev2-card {
+    white-space: nowrap;
+    left: 13.7rem !important;
+    font-size: 15px !important;
+  }
+
+  .reserve-date-button-holder {
+    top: 128rem !important;
+    left: 6rem !important;
+  }
+
+  .calendarHolder2 {
+    left: -6rem !important;
+    top: 37rem !important;
+  }
+
+
+  .rdrDefinedRangesWrapper {
+    display: none;
+  }
+
+  .expense-title-hold {
+    top: 137rem !important;
+    left: 2.2rem !important;
+  }
+
+  .calculated-expense-hold {
+    top: 134rem !important;
+    left: 16rem !important;
+
+  }
+
+  /*  card details hold  */
+
+  .days-0 {
+    top: -3rem !important;
+    left: -13rem !important;
+  }
+
+  .close-cal {
+    top: 150rem !important;
+    left: -14rem !important;
+    top: 49% !important;
+    margin-top: 39rem;
+    position: absolute !important;
+    bottom: 47rem !important;
+    width: 10rem !important;
+  }
+
+  .checkout-btn-after {
+    margin-left: -21rem !important;
+    width: 11.8rem !important;
+
+  }
+
+  .le {
+    font-size: 14px !important;
+  }
+
+  .line-total {
+    top: 146rem !important;
+    left: 2rem !important;
+  }
+
+  .price-total-text {
+    top: 145rem !important;
+    position: relative;
+    left: 2rem !important;
+  }
+
+  .price-total {
+    top: 143.2rem !important;
+    position: relative;
+    left: 8rem !important;
+
+  }
+
+  .st {
+    top: -20rem !important;
+    position: relative;
+    display: none;
+  }
+
+  .spm-rev {
+    display: none;
+  }
+
+  .footer-pic {
+    display: none;
+  }
+
+  .footerLine1 {
+    top: 160rem !important;
+    left: 0rem !important;
+  }
+
+  .footer-things {
+    top: 169rem !important;
+    left: 2rem !important;
+  }
+
+  .review-hold {
+    top: 174rem !important;
+    left: 0rem !important;
+    width: 100rem !important;
+  }
+
+  .agg {
+    top: 17rem !important;
+    left: -3rem !important;
+    display: none;
+  }
+
+  .modal-box {
+    width: 5rem !important;
+  }
+
+  .spm-pic {
+    display: none;
+  }
+
+  .footer2 {
+    top: 199rem !important
+  }
+
+  .css-8atqhb {
+    width: 83% !important;
+  }
+
+  .book-heading {
+    white-space: nowrap;
+    top: 2rem !important;
+    left: 2rem !important;
+  }
+
+  .place-datails-container {
+    left: -1rem !important;
+  }
+
+  .checkout-name {
+    left: 15rem !important;
+  }
+
+  .checkout-stars {
+    left: 15rem !important;
+  }
+
+  .checkout-start-price {
+    left: 15rem !important;
+  }
+
+  .checkout-protected {
+    font-size: 14px !important;
+  }
+
+  .checkout-logo {
+    width: 5rem;
+  }
+
+  .walHold {
+    width: 10rem !important;
+    top: 37rem !important;
+    left: -33rem !important;
+
+  }
+
+  .credHold {
+    width: 10rem !important;
+    top: 47rem !important;
+    left: -19rem !important;
+  }
+
+  .cc {
+    height: 8rem !important;
+  }
+
+  .gpayHold {
+    top: 29rem !important;
+    left: -14rem !important;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+
+}
+
+.css-1oezttv {
+  color: black !important;
+
+}
+
+
+.tab-name-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 105px;
+  font-weight: 500;
+  position: relative;
+  left: -0rem;
+  position: relative;
+  justify-content: center;
+}

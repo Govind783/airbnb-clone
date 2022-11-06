@@ -1,0 +1,38 @@
+.gpayHold {
+  position: absolute;
+  top: 10rem;
+  right: 6rem;
+}
+
+.credHold {
+  position: absolute;
+  top: -3rem;
+  right: -51rem;
+  width: 50rem;
+}
+
+.gpayHold {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+}
+
+.cc {
+  width: 18rem;
+  height: 14rem;
+}
+
+.walHold {
+  position: absolute;
+  right: 15rem;
+}
+
+
+.bn {
+  font-size: 64px;
+  position: absolute;
+  top: -11rem;
+  right: 66rem;
+  color: #ff385c;
+}
+

@@ -1,0 +1,49 @@
+
+.footer-hold{
+    position: absolute;
+    top: 206rem;
+    left: 10rem;
+}
+
+.footerLine1{
+    position: absolute;
+    top: 199rem;
+    left: 9rem;
+}
+
+.footer-pic{
+    width: 65rem;
+}
+
+.footer-things{
+    position: absolute;
+    top: 202rem;
+    left: 10rem;
+}
+
+.footer2{
+    position: relative;
+    top: 215rem;
+    left: 0rem;
+    background-color: hsl(var(--n) / var(--tw-bg-opacity)) !important;
+
+}
+
+.bg-neutral{
+    background-color: hsl(var(--n) / var(--tw-bg-opacity)) !important;
+
+}
+
+.text-neutral-content{
+    color: black;
+}
+.text-base-content{
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+
+.link{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:medium;
+}

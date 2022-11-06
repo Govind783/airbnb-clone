@@ -1,0 +1,280 @@
+.paypalbghold {
+    position: absolute;
+    top: 5rem;
+    right: -15rem;
+    box-shadow: rgb(0 0 0 / 12%) 20px 46px 96px;
+
+}
+
+.paypalbg {
+    width: 48rem;
+    height: 30rem;
+
+}
+.successful{
+    position: absolute;
+    z-index: 999999999999999999999999999999999999999999;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/*
+.paypal-card{
+    position: absolute;
+    top: 10rem;
+    width: 40rem;
+    background-color: red;
+    height: 50rem;
+    width: 50rem;
+    left: 15rem;
+
+}
+
+.paypal-side-card{
+    position: absolute;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}*/
+
+.paypalCardHold {
+    position: absolute;
+    top: 4rem;
+    width: 45rem;
+    left: 9rem;
+
+}
+
+.paypalcard {
+    width: 43rem;
+    height: 30rem;
+    border-radius: 15px;
+}
+
+
+.figure-hold3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+    top: 13.1rem;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    left: 11.9rem;
+    text-align: center;
+}
+
+.reciptFor {
+    position: absolute;
+    top: 8rem;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    left: 10rem;
+    border-radius: 6px;
+    width: 9rem;
+    text-align: center;
+    color: #338ae7;
+
+}
+
+.val {
+
+    background-color: white !important;
+    color: #338ae7;
+    width: 5rem;
+    border-radius: 7px;
+}
+
+.heading-hold2 {
+    position: absolute;
+    top: 16.5rem;
+    left: 12.2rem;
+    color: white;
+    background-color: #338ae7;
+    font-size: 12px;
+}
+
+.confirmnum {
+    position: absolute;
+    top: 27.5rem;
+    left: 12rem;
+    background-color: white !important;
+    color: #338ae7;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 6em;
+    text-align: center;
+
+}
+
+.paypalLogo2 {
+    position: relative;
+    top: 6rem;
+    right: -24rem;
+    background: white;
+    width: 27rem;
+}
+
+.change {
+    background-color: #338ae7;
+    color: white;
+}
+
+.stayAt2 {
+    position: absolute;
+    top: 12.6rem;
+    background-color: white;
+    font-size: 19.8px;
+    font-weight: 600;
+    width: 20rem;
+    right: -5rem;
+    text-transform: uppercase;
+
+}
+
+.totalCard2 {
+    position: absolute;
+    top: 15.1rem;
+    right: 8rem;
+
+}
+
+.hello2 {
+    top: 18.5rem;
+    height: 10rem;
+    width: 19rem;
+    right: -4rem;
+}
+
+.confirmHold2 {
+    top: 25.2rem;
+    right: 5rem;
+}
+
+.whiteover {
+    background-color: white;
+    position: absolute;
+    width: 26.5rem;
+    height: 3rem;
+    top: 30.8rem;
+    right: -11rem;
+    border-radius: 15px;
+}
+
+.success-animation { margin:150px auto;}
+
+.checkmark {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #4bb71b;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #4bb71b;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+    position:relative;
+    top: 5px;
+    right: 5px;
+   margin: 0 auto;
+}
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #4bb71b;
+    fill: #fff;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+ 
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #4bb71b;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  338ae7
+3385dc
+
+*/

@@ -1,0 +1,287 @@
+.single-page-pic {
+    float: left !important;
+    width: 250px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+}
+
+.single-page-name {
+    text-transform: uppercase;
+    position: absolute;
+    left: 9rem;
+    font-size: 24px;
+    top: 7.5rem;
+}
+
+.single-page-hold {
+    position: absolute;
+    top: 22rem;
+    left: 48rem;
+    gap: 9%;
+    flex-wrap: wrap;
+    width: 44rem;
+
+}
+
+.single-page-pic {
+    margin-bottom: 5%;
+}
+
+.single-page-main-pic {
+    width: 42.5rem;
+    position: absolute;
+    left: 3rem;
+    top: 20rem;
+    border: none;
+
+}
+
+.single-page-star {
+    top: 10.6rem;
+    left: 7.4rem;
+}
+
+.single-page-review {
+    top: 10.1rem;
+    font-size: 21px;
+    font-weight: 400;
+    left: 9.5rem;
+}
+
+.single-page-rev-text {
+    position: absolute;
+    top: 10.4rem;
+    left: 15rem;
+    color: #ff385c;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.super-host {
+    position: absolute;
+    top: 13rem;
+    font-weight: 500;
+    font-size: 24px;
+    left: 8rem;
+}
+
+.heart {
+    color: black;
+    font-size: 38px;
+    position: absolute;
+    top: 13rem;
+    left: 17.5rem;
+}
+
+.features-text {
+    position: absolute;
+    top: 54rem;
+    left: 7rem;
+}
+
+.actual-features {
+    position: absolute;
+    top: 56rem;
+    left: 7rem;
+}
+
+.line1 {
+    position: absolute;
+    top: 60rem;
+    left: 6rem;
+}
+
+.line2 {
+    position: absolute;
+    top: 80rem;
+    left: 5rem;
+}
+
+.feature-hold {
+    position: absolute;
+    top: 65rem;
+}
+
+.icon-hold {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    position: absolute;
+    top: 63rem;
+    left: 8rem;
+}
+
+.heading-hold {
+    position: absolute;
+    top: 63rem;
+    display: flex;
+    flex-direction: column;
+    left: 12rem;
+    gap: 5rem;
+
+}
+
+.description-hold {
+    position: absolute;
+    top: 65rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    left: 12rem;
+    flex-wrap: wrap;
+    font-style: italic;
+
+}
+
+.s {
+    position: absolute;
+    top: 100rem;
+    left: 20rem;
+}
+
+.rdrInputRanges {
+    display: none;
+}
+
+.side-box-card {
+    top: 55rem;
+    background-color: white;
+    width: 25rem;
+    height: 31rem;
+    left: 60rem;
+
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+
+.rdrStaticRanges {
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    border: 1px solid rgb(221, 221, 221);
+
+
+}
+
+.ab {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    flex-wrap: nowrap;
+    left: 11.3rem;
+    top: 2rem;
+}
+
+.rev-card {
+    top: 1.6rem;
+    left: 13rem;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.rev2-card {
+    position: absolute;
+    top: 1.6rem;
+    left: 16rem;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+
+.reserve-date-button-holder {
+    position: absolute;
+    top: 62rem;
+    left: 65rem;
+    width: 20rem;
+}
+
+.reserve-date-button {
+    background-color: #ff385c;
+    height: 3.5rem;
+    width: 12rem;
+    transition: 400ms;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+
+}
+
+.reserve-date-button:hover {
+    transform: scale(1.1);
+}
+
+.calendarHolder {
+    position: absolute;
+    top: -33rem;
+    left: 27rem;
+    z-index: 9999999999999999999;
+}
+
+.calendarHolder2 {
+    z-index: 99999999;
+}
+
+
+.rdrDateDisplayWrapper {
+    z-index: 100
+}
+
+
+.days-0 {
+    position: absolute;
+    top: 1rem;
+    width: 7.8rem;
+    left: 15rem;
+}
+
+.days-updated {
+    position: absolute;
+    top: 1rem;
+    width: 7.8rem;
+    left: 15rem;
+}
+
+
+
+.expense-title-hold {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    top: 71.5rem;
+    left: 62rem;
+}
+
+.calculated-expense-hold {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    top: 68rem;
+    left: 75rem;
+}
+
+.line-total {
+    position: absolute;
+    top: 80.5rem;
+    left: 60rem;
+}
+
+.price-total-text {
+    top: 83.1rem;
+    left: 63rem;
+}
+
+.price-total {
+    top: 83.2rem;
+    left: 67.6rem;
+}
+
+.daysSelected {
+    position: absolute;
+    top: 1rem;
+    left: 18rem;
+    width: 2rem;
+
+}

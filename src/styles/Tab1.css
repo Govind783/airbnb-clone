@@ -1,0 +1,130 @@
+
+
+
+
+.alice-carousel__prev-btn-item
+{
+    position: absolute;
+    /* border-radius: 50%; */
+    font-size: 38px;
+    width: 22%;
+    height: 2.5rem;
+    top: 7.4rem;
+    left: -2rem;
+    font-weight:bold;
+    color: rgb(242, 233, 233);
+    transition: 450ms;
+    object-fit: cover;
+
+}
+
+
+.alice-carousel__next-btn-item{ 
+    position: absolute;
+    font-size: 38px;
+    width: 22%;
+    height: 2.5rem;
+    top: 7.4rem;
+    left: 20.7rem;
+    z-index: 9999999999999;
+    font-weight: bold;
+    color: white;
+    transition: 450ms;
+}
+
+ .card-body{
+    line-height: 0rem !important;
+}
+
+.card{
+    height: 27.4rem !important;
+    margin-bottom: 3.5%;
+}
+
+.alice-carousel__prev-btn-item :hover{
+    color: rgb(186, 178, 178) !important;
+}
+
+
+.alice-carousel__next-btn-item:hover{
+    color: rgb(186, 178, 178) !important;
+}
+
+.rev-hold{
+    position: relative;
+    font-size: 30px;
+    top: -6rem;
+    display: flex;
+    width: 97%;
+    flex-wrap: nowrap;
+}
+
+.prod-star{
+    top: -1.5rem;
+    left: 15.7rem;
+}
+
+.star-icon{
+    font-size: 27px;
+    top: -4rem;
+    left: 19.6rem;
+}
+
+.prod-price{
+    font-size: 20px;
+    position: relative;
+    top: 4rem;
+
+}
+
+.tab-content{
+    display: flex;
+}
+
+.prod-name{
+    top: 0rem;
+    text-transform: uppercase;
+    font-size: 18px;
+    left: -1rem;
+}
+
+.alice-carousel__dots
+
+{
+    position: absolute;
+    z-index: 99999999999999999999999999999;
+    top: 14rem;
+    left: 7rem;
+}
+
+
+.i{
+    float: left;
+    width:  400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tab1-hold{
+    
+display: flex;
+gap: 5%;
+width: 105%;
+flex-wrap: wrap;
+justify-content: center;
+position: relative;
+left: 15rem;
+}
+
+
+
+
+.card{
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 29px 40px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+

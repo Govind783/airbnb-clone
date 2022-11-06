@@ -1,0 +1,25 @@
+.css-jt91d7[aria-selected=true], .css-jt91d7[data-selected]{
+    background-color: #ff385c !important;
+    color: white !important;
+}
+
+.tabs-hold2{
+    position: absolute;
+    top: 5rem;
+    left: 50rem;
+    width: 40rem;
+
+}
+
+.css-jt91d7{
+    width: 10rem;
+}
+
+.css-a5mhaz{
+    padding: var(--chakra-space-4);
+    outline: 2px solid transparent;
+    position: relative;
+    outline-offset: 2px;
+    top: 5rem;
+    left: -17rem;
+}
