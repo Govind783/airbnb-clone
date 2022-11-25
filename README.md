@@ -1,4 +1,9 @@
 The best air bnb clone built using react and tailwind which offers you to choose a stay from 100's of options reserve your dates and even make payment using visa or mastercard
+the project contains 3 pages 
+the home page
+details page
+checkout page
+
 
 
 # Getting Started with Create React App
