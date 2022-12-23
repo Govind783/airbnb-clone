@@ -3,18 +3,16 @@ import "../styles/Paypal.css";
 import paypalbg from "../styles/paypalbg.png"
 import paypalCard from "../styles/paypal-card.png"
 import success from "../styles/ab.gif";
+import { PayPalButtons } from '@paypal/react-paypal-js';
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
 
 const Paypal = (props) => {
-    const [openModal, setOpenModal] = useState(false);
 
     let placesName = props.nameOfPlace;
     let price1 = props.initialPrice;
     let numOfDays = props.daysSelected;
 
-    const paymentSuccess = () => {
-        setOpenModal(!openModal);
-    }
 
 
     return (
@@ -42,8 +40,6 @@ const Paypal = (props) => {
             <div className='reciptFor'>
                 <p>{placesName}</p>
             </div>
-
-
 
 
             <div className='heading-hold2'>
@@ -79,32 +75,31 @@ const Paypal = (props) => {
 
             <div className='confirmHold2 absolute outline-none border-none'>
 
-                <button className='uppercase btn change outline-none border-none' onClick={paymentSuccess}>Confirm to pay</button>
-                <p> {openModal && 
-                    <div class="success-animation">
-                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
-                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
-                    </div>} </p>
-                    
+
+                <PayPalScriptProvider>
+                    <PayPalButtons aria-label='BUY WITH PAYPAL' createOrder={(data, actions) => {
+                        return actions.order.create({
+                            purchase_units: [
+                                {
+                                    amount: {
+                                        value: price1,
+                                    },
+                                },
+                            ],
+                        });
+                    }}>
+
+                    </PayPalButtons>
+                </PayPalScriptProvider>
             </div>
 
             <div className='whiteover'>
 
             </div>
 
-            {/*  */}
-
             <div className='loader'>
 
             </div>
-
-
-
-
-
-
-
-
 
         </div>
     )
@@ -112,3 +107,4 @@ const Paypal = (props) => {
 
 
 export default Paypal
+

@@ -18,15 +18,15 @@ const PaymentForm = (props) => {
         <Tabs variant='soft-rounded' colorScheme='red' className='tabs-hold2'>
 
           <TabList>
-            {/*<Tab>Pay with PayPal</Tab>*/}
-            <Tab className='hidden opacity-0'>Pay with Card</Tab>
+            <Tab>Pay with PayPal</Tab>
+            <Tab className=''>Pay with Card</Tab>
           </TabList>
           <TabPanels>
 
 
-            {/*<TabPanel>
+            <TabPanel>
               <Paypal initialPrice={price} nameOfPlace={placesName} daysSelected={days} />
-  </TabPanel>*/}
+            </TabPanel>
 
 
             <TabPanel>

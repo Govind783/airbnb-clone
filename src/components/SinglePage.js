@@ -15,12 +15,13 @@ import SinglePageMiddle from './SinglePageMiddle';
 import Footer1 from './Footer1';
 import Footer2 from './Footer2';
 import { createContext } from 'react';
-
+import "../styles/Tabs.css";
 
 const SinglePage = () => {
 
     const [buttonOpen, setButtonOpen] = useState(false);
     const [buttonClose, setButtonClose] = useState(true);
+
 
 
 
@@ -46,30 +47,48 @@ const SinglePage = () => {
 
     const { name, homeMainPic, price, stars, carouselPic1, carouselPic2, carouselPic3, carouselPic4, carouselPic5 } = placeClicked || {}
 
+    const [activeImg, setActiveImg] = useState(false);
+
+    const [defaltImage, setDefaultImage] = useState(carouselPic1);
+
+
+    const getImageSrcHnadler = (e) => {
+        setDefaultImage(e.target.src)
+        setActiveImg(true)
+    }
+
+    const setDefaultImgHnadler = () => {
+        setDefaultImage(carouselPic1)
+        setActiveImg(false);
+    }
+
+
     return (
 
         <div>
-            <Link to="/">
-                <FaAirbnb className='logo' />
-            </Link>
 
-            <p className='txt font-semibold relative'>AIRBNB</p>
-            <p className='font-semibold text-3xl single-page-name'>{name} !!</p>
+            <div className='basicDeatils flex flex-row text-lg'>
+                <p className='font-semibold uppercase'>{name}</p>
+                <div className=''>
+                    <FaStar className=' text-xl inline-block mr-2 ' />
+                    <p className=' inline-block'> {stars} </p>
+                </div>
+                <p className=''>{Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviews</p>
 
-            <FaStar className='single-page-star text-xl absolute' />
-            <p className='single-page-review absolute'> {stars} </p>
-            <p className='single-page-rev-text'>{Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviews</p>
+            </div>
 
-            <p className='super-host'>Super Host  </p>
-            <IoMdThumbsUp className='heart' />
 
-            <img src={carouselPic1} className="single-page-main-pic" />
+
+
+
+            {activeImg === true ? <img src={defaltImage} className="single-page-main-pic cursor-pointer" /> : <img src={carouselPic1} className="single-page-main-pic cursor-pointer" />}
+
 
             <div className='absolute flex single-page-hold'>
-                <img src={carouselPic2} className="w-40 rounded-xl single-page-pic" />
-                <img src={carouselPic3} className="w-40 rounded-xl single-page-pic" />
-                <img src={carouselPic4} className="w-40 rounded-xl single-page-pic" />
-                <img src={carouselPic5} className="w-40 rounded-xl single-page-pic" />
+                <img src={carouselPic2} className="w-40 rounded-xl cursor-pointer single-page-pic" onMouseOver={getImageSrcHnadler} onMouseLeave={setDefaultImgHnadler} />
+                <img src={carouselPic3} className="w-40 rounded-xl cursor-pointer single-page-pic" onMouseOver={getImageSrcHnadler} onMouseLeave={setDefaultImgHnadler} />
+                <img src={carouselPic4} className="w-40 rounded-xl cursor-pointer single-page-pic" onMouseOver={getImageSrcHnadler} onMouseLeave={setDefaultImgHnadler} />
+                <img src={carouselPic5} className="w-40 rounded-xl cursor-pointer single-page-pic" onMouseOver={getImageSrcHnadler} onMouseLeave={setDefaultImgHnadler} />
             </div>
 
             <p className='features-text text-2xl font-semibold uppercase'>Entire rental unit hosted by Ben  </p>

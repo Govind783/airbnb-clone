@@ -76,10 +76,10 @@ const SinglePageMiddle = () => {
 
         <div className='agg'>
 
-            <label htmlFor="my-modal-4" className="modal-button spm-rev-btn rounded-2xl btn">Show 15 More Reviews</label>
+            <label htmlFor="my-modal-5" className="modal-button spm-rev-btn rounded-2xl btn">Show 15 More Reviews</label>
 
-            <input type="checkbox" id="my-modal-4" className="modal-toggle" />
-            <label htmlFor="my-modal-4" className="modal cursor-pointer">
+            <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+            <label htmlFor="my-modal-5" className="modal cursor-pointer">
                 <label className="modal-box relative" for="">
                     <FaStar className='modal-star' />
                     <p className='modal-review font-semibold'>{stars}, 15 reviews</p>

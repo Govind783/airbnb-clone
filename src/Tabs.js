@@ -14,7 +14,8 @@ import Tab8 from "./components/Tab8"
 import Tab9 from "./components/Tab9"
 import Tab10 from "./components/Tab10"
 
-const TabsComp = () => {
+const TabsComp = ({toggle , setToggle}) => {
+
 
 
 
@@ -38,16 +39,16 @@ const TabsComp = () => {
 
 
         <TabPanels>
-          <TabPanel className="tab-content"> <Tab1 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab2 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab10 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab4 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab5 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab6 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab7 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab8 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab9 />  </TabPanel>
-          <TabPanel className="tab-content"> <Tab3 />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab1 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab2 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab10 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab4 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab5 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab6 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab7 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab8 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab9 pushDown={toggle} />  </TabPanel>
+          <TabPanel className="tab-content"> <Tab3 pushDown={toggle} />  </TabPanel>
         </TabPanels>
 
       </Tabs >
@@ -57,3 +58,5 @@ const TabsComp = () => {
 }
 
 export default TabsComp
+//         <TabList className={toggle === true? "tabs-hold-pushDown" : "tabs-hold"}>
+

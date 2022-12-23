@@ -1,0 +1,175 @@
+.searchDetailsImage {
+    width: 20rem !important;
+    max-width: 100% !important;
+    border-radius: 15px !important;
+}
+
+
+
+.coupleHold {
+    border: 1px solid black;
+    width: 12rem;
+    line-height: 2.5rem;
+    height: 3rem;
+}
+
+.petHold {
+    border: 1px solid black;
+    width: 10rem;
+    height: 3rem;
+    line-height: 2.5rem;
+    padding-left: 1.8rem;
+
+}
+
+.topSearchLine {
+    width: 58rem;
+    height: 0.1rem;
+    left: 7rem;
+    top: 22rem;
+}
+
+.searchDetailsImage {
+    top: 10rem !important;
+    left: 6rem;
+    height: 12rem;
+    box-shadow: 3px 3px 1px rgb(28, 22, 22);
+    -webkit-box-shadow: 3px 3px 1px rgb(177, 172, 172);
+    -moz-box-shadow: 3px 3px 1px #ccc;
+}
+
+
+.bifurcatingLine {
+    top: 12rem !important;
+    left: 6rem !important;
+    width: 57rem !important;
+    height: 0.1rem;
+
+}
+
+.searchDatarevHold {
+    position: relative;
+    top: -1rem !important;
+    left: 28rem;
+}
+
+.searchRevHold {
+    width: 34rem !important;
+    top: -146.4rem !important;
+    left: 28rem;
+    font-size: 14px !important;
+    gap: 13.4rem !important;
+}
+
+.searchRevHold2 {
+    width: 34rem !important;
+    top: 4.4rem !important;
+    left: 28rem;
+    font-size: 14px !important;
+    gap: 13.4rem !important;
+    position: relative !important;
+}
+
+.smallLine {
+    height: 0.1rem;
+    position: relative;
+    top: 0.1rem;
+    left: 27rem;
+}
+
+.revSearchData {
+    left: 27.7rem !important;
+    top: 5rem;
+}
+
+.searchDeatilsMainParent {
+    max-height: 100vh !important;
+}
+
+
+.dropdownFilter {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 8%), 0 0px 2px 0 rgb(0 0 0 / 4%);
+    width: 10rem;
+    height: 8rem;
+    position: relative;
+    left: 0rem;
+    text-align: center;
+    top: 0rem;
+
+}
+
+.selectDropDown {
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 8%), 0 0px 2px 0 rgb(0 0 0 / 4%);
+    width: 8rem;
+    height: 6rem;
+    position: relative;
+    border-radius: 12px !important;
+    z-index: 99999 !important;
+    left: 24rem;
+    text-align: center;
+
+}
+
+.arrowsHold {
+    top: -2.8rem;
+    left: 8rem;
+}
+
+.SDPprice {
+    position: relative;
+    top: 6.7rem;
+    left: 55rem !important;
+}
+
+.petTIckHold {
+    top: 5rem !important;
+    left: 26rem;
+}
+
+.zoom {
+    transition: all ease 300ms;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.petWlcHold {
+    position: relative;
+    left: 28rem;
+    top: -3rem;
+
+}
+
+.selectDropDownCouple {
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 8%), 0 0px 2px 0 rgb(0 0 0 / 4%);
+    width: 8rem;
+    height: 6rem;
+    position: relative;
+    border-radius: 12px !important;
+    left: 12rem;
+    text-align: center;
+}
+
+.zindex {
+    position: relative;
+    width: 15rem;
+}
+
+.coupleFriendlyHold {
+    left: 27rem !important;
+    top: -2.5rem !important;
+}
+
+.spFooterHold {
+    top: -134rem !important;
+}
+
+.mapHoldSearch {
+    position: relative;
+    top: -330.8rem;
+    left: 62.8rem;
+    height: 100vh !important;
+}
+

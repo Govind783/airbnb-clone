@@ -1,21 +1,37 @@
 .single-page-pic {
     float: left !important;
-    width: 250px !important;
+    width: 14.5rem !important;
     height: 200px !important;
     object-fit: cover !important;
 }
 
 .single-page-name {
     text-transform: uppercase;
-    position: absolute;
     left: 9rem;
-    font-size: 24px;
     top: 7.5rem;
+    position: relative !important;
+}
+
+.basicDeatils {
+    width: 25rem !important;
+    height: 6rem !important;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    display: flex;
+    position: relative;
+    left: 4rem;
+    top: 5rem ;
+    gap: 3rem;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+}
+.fof{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+
 }
 
 .single-page-hold {
     position: absolute;
-    top: 22rem;
+    top: 21rem;
     left: 48rem;
     gap: 9%;
     flex-wrap: wrap;
@@ -33,6 +49,7 @@
     left: 3rem;
     top: 20rem;
     border: none;
+    border-radius: 12px !important;
 
 }
 

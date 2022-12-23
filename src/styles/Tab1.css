@@ -107,13 +107,28 @@
 
 .tab1-hold{
     
-display: flex;
-gap: 5%;
-width: 105%;
-flex-wrap: wrap;
-justify-content: center;
-position: relative;
-left: 15rem;
+    display: flex;
+    gap: 5%;
+    width: 105%;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 17rem;
+    left: 16rem;
+    top: 1rem;
+
+}
+
+.tab1-hold-pushDown{
+    display: flex;
+    gap: 5%;
+    width: 105%;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 17rem;
+    left: 16rem;
+    top: 47rem;
 }
 
 

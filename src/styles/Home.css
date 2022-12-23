@@ -1,8 +1,219 @@
+.logo {
 
-.logo{
-
-    font-size: 100px;
+    font-size: 50px;
     color: red;
+}
 
 
+
+.navBar {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    height: 7rem;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.UserLoginImage{
+    border-radius: 50px !important;
+    width: 2.4rem !important;
+    height: 2.4rem !important;
+    object-fit: cover !important;
+    
+
+}
+
+
+
+
+.inpWidth2 {
+    width: 25rem !important;
+    position: relative !important;
+    left: 2rem !important;
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 8%), 0 0px 2px 0 rgb(0 0 0 / 4%);
+    height: 3rem !important;
+    border-radius: 16px !important;
+    justify-content: center;
+    align-items: center !important;
+    gap: 2rem !important;
+}
+
+.tabContentPlaces {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    height: auto;
+    height: 25rem !important;
+    width: 109% !important;
+    top: -3rem;
+    left: 15rem;
+    border-radius: 15px !important;
+
+}
+
+.tabContent1Hold {
+    display: flex;
+    flex-wrap: wrap;
+    width: 34rem !important;
+    gap: 4rem !important;
+    position: relative;
+    top: 1rem !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabContent1Image {
+    width: 7rem !important;
+    border-radius: 10px !important;
+    transition: all 400ms ease !important;
+}
+
+.secImages{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    column-gap: 3rem;
+    left: 0rem !important;
+}
+
+.tabContent1Image:hover {
+    border: 1px solid black !important;
+}
+
+.fs {
+    font-size: 14px !important;
+}
+
+.imgCaptionHold {
+    width: 28rem !important;
+    gap: 6rem !important;
+    top: -6.5rem !important;
+    position: relative;
+    row-gap: 11rem !important;
+    left: 4.4rem !important;
+}
+
+.toOpenModal {
+    position: relative;
+    left: 2rem;
+    z-index: 99999999 !important;
+}
+
+
+.inputBox {
+    width: 23rem !important;
+    left: 18rem !important;
+    height: 2.8rem !important;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    border-radius: 15px !important;
+}
+
+.searchTabsHold {
+    left: 14rem !important;
+    top: 5rem !important;
+    position: relative;
+}
+
+
+.NavBarCalendar {
+    z-index: 999999999999 !important;
+    position: relative !important;
+    top: -4rem !important;
+    left: 7.5rem !important;
+}
+
+
+
+.tab3MainHold {
+    background-color: white;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    width: 26rem !important;
+    height: 30rem !important;
+    border-radius: 30px !important;
+    position: relative;
+    top: -2rem !important;
+    left: 20rem !important;
+
+}
+
+.adultsKidsHold {
+    position: relative;
+    top: 3rem !important;
+    left: 3rem;
+    gap: 4.2rem;
+}
+
+.adultCriteriaHold {
+    top: -14rem !important;
+    gap: 4.4rem;
+    left: 3rem;
+}
+
+.divideLineHold {
+
+    position: relative;
+    top: -31rem !important;
+    left: 4rem;
+    gap: 6rem;
+}
+
+.navLine {
+    background-color: rgb(241, 234, 234);
+    width: 19rem;
+    height: 0.1rem;
+    z-index: 99999;
+
+}
+
+.fss {
+    font-size: 30px;
+}
+
+.btnControlsPlus {
+    top: -48rem !important;
+    left: 17rem !important;
+    gap: 4.5rem;
+    cursor: pointer;
+    width: 1.5rem;
+}
+
+.btnControlMinus {
+    top: -62.7rem;
+    left: 22rem;
+    gap: 4.5rem;
+    cursor: pointer !important;
+
+}
+
+
+.navQtyHold {
+    top: -77rem;
+    left: 20rem;
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 1.4rem;
+}
+
+
+
+.selectWrapper {
+    position: relative;
+    top: -73rem;
+    left: 16.4rem;
+    width: 7rem !important;
+    outline: none !important;
+}
+
+.searchDisplayParent {
+    width: 33rem !important;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 3rem !important;
+}
+
+.locbg{
+    background-color: rgb(235, 235, 235) !important;
 }

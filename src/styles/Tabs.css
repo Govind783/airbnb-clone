@@ -3,15 +3,19 @@
   gap: 5% !important;
   justify-content: center !important;
   border-bottom: none !important;
+  top: 4rem;
+  position: relative;
 }
 
-.txt {
-  left: 8.6rem;
-  top: -4.5rem;
-  font-size: 30px;
-  color: #ff385c;
-
+.tabs-hold-pushDown {
+  display: flex !important;
+  gap: 5% !important;
+  justify-content: center !important;
+  border-bottom: none !important;
+  top: 28rem;
+  position: relative;
 }
+
 
 
 ::-webkit-scrollbar-track {
@@ -40,7 +44,7 @@
 }
 
 @media (max-width : 1250px) {
- 
+
   .im {
     width: 8rem !important;
   }
@@ -65,9 +69,6 @@
     left: 2rem !important;
   }
 
-  .single-page-pic {
-    width: 10rem !important;
-  }
 
   .features-text {
     left: 4rem !important;
@@ -155,11 +156,88 @@
   }
 
   .close-cal {
-    left: -46rem !important;
-    top: 17rem !important;
+    left: -40rem !important;
+    top: 26rem !important;
     position: relative !important;
-    bottom: 56rem !important;
+    height: 3.7rem !important;
+
   }
+
+
+  .tabs-hold2 {
+    left: 40rem !important;
+  }
+
+  .book-heading {
+    left: 4rem !important;
+  }
+
+  .place-datails-container {
+    left: 2rem !important;
+  }
+
+
+  .paypalCardHold {
+    left: 11.5rem !important;
+    width: 37rem !important;
+  }
+
+  .paypalbghold {
+    display: none !important;
+  }
+
+  .credHold {
+    right: -45rem !important;
+  }
+
+  .cc {
+    width: 14rem !important;
+  }
+
+
+  .reciptFor {
+    position: absolute !important;
+    top: 7.8rem !important;
+    font-size: 16px !important;
+    left: 12.2rem !important;
+    width: 7rem !important;
+
+  }
+
+  .figure-hold3 {
+    position: absolute !important;
+    top: 13rem !important;
+    left: 13.4rem !important;
+    gap: 3.4rem !important;
+  }
+
+  .heading-hold2 {
+    position: absolute !important;
+    top: 16.6rem !important;
+    left: 14.2rem !important;
+  }
+
+  .confirmnum {
+    position: absolute !important;
+    top: 27.7rem !important;
+    font-size: 16px !important;
+    left: 13.5rem !important;
+  }
+
+  .stayAt2 {
+    font-size: 17px !important;
+  }
+
+  .hello2 {
+    position: absolute !important;
+    top: 16.5rem !important;
+  }
+
+  .confirmHold2 {
+    top: 21.7rem !important;
+    right: -1rem !important;
+  }
+
 
   .calendarHolder2 {
     position: relative !important;
@@ -218,7 +296,13 @@
     margin-bottom: 4rem !important;
   }
 
+  .basicDeatils {
+    top: 26rem !important;
+    position: absolute !important;
+    left: 0rem !important;
+    gap: 2rem !important;
 
+  }
 
 
   .single-page-name {
@@ -269,9 +353,15 @@
 
   }
 
-  .single-page-pic {
-    display: none;
+  .single-page-hold {
+    display: none !important;
   }
+
+  .single-page-pic {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
 
   .features-text {
     top: 32rem !important;
@@ -304,6 +394,8 @@
     top: 44rem !important;
     left: 6rem !important;
     gap: 4rem !important;
+    max-width: 95% !important;
+    width: 74% !important;
 
   }
 
@@ -435,7 +527,7 @@
     top: 150rem !important;
     left: -14rem !important;
     top: 49% !important;
-    margin-top: 39rem;
+    margin-top: 15rem;
     position: absolute !important;
     bottom: 47rem !important;
     width: 10rem !important;
@@ -523,8 +615,89 @@
 
   .book-heading {
     white-space: nowrap;
-    top: 2rem !important;
+    top: 9rem !important;
     left: 2rem !important;
+  }
+
+  .tabs-hold2 {
+    top: 60rem !important;
+    left: 2rem !important;
+  }
+
+  .paypalCardHold {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    width: 36rem !important;
+    left: 15rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  .slick-next{
+    left: 18.5rem !important;
+  }
+
+  .paypalLogo2 {
+    right: -27rem !important;
+  }
+
+  .reciptFor {
+    font-size: 14px !important;
+    top: 8rem !important;
+    left: 16rem !important;
+    width: 6rem !important;
+  }
+
+  .figure-hold3 {
+    top: 13rem !important;
+    left: 17.4rem !important;
+    gap: 3.4rem !important;
+  }
+
+  .confirmnum {
+    top: 27.5rem !important;
+    left: 17rem !important;
+
+  }
+
+  .heading-hold2 {
+    top: 16.5rem !important;
+    left: 17.7rem !important;
+
+  }
+
+
+  .stayAt2 {
+    top: 13rem !important;
+    left: 27.8rem !important;
+    font-size: 13px !important;
+  }
+
+  .totalCard2 {
+    top: 15rem !important;
+    left: 28rem;
+    font-size: 14px;
+    background: white !important;
+    background-color: white !important;
+    width: 10rem !important;
+
+  }
+
+  .confirmHold2 {
+    top: 26rem !important;
+    left: 28rem !important;
+  }
+
+  .whiteover {
+    display: none !important;
+  }
+
+
+
+  .hello2 {
+    top: 17.7rem !important;
+    width: 10rem !important;
+    font-size: 14px;
+    left: 28rem !important;
+
   }
 
   .place-datails-container {
@@ -569,8 +742,11 @@
   }
 
   .gpayHold {
-    top: 29rem !important;
-    left: -14rem !important;
+    top: 2rem !important;
+    left: 9.8rem !important;
+    width: 10rem !important;
+    height: 10rem !important;
+
   }
 
 

@@ -35,7 +35,7 @@ const Card = () => {
                         },
                     ],
                     merchantInfo: {
-                        merchantId: "17613812255336763067",
+                        merchantId: process.env.REACT_APP_MERCHANT_ID,
                         merchantName: "Demo Only"
                     },
 
@@ -62,15 +62,6 @@ const Card = () => {
             <div className='walHold absolute top-60'>
                 <img src={wallet} className="wal" />
             </div>
-
-            <Link to="/">
-
-                <div>
-                    <FaAirbnb className='bn' />
-                </div>
-
-            </Link>
-
 
         </div>
     )

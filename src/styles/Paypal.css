@@ -138,9 +138,8 @@
 
 .totalCard2 {
     position: absolute;
-    top: 15.1rem;
-    right: 8rem;
-
+    top: 14.8rem;
+    right: 8.3rem;
 }
 
 .hello2 {
@@ -151,8 +150,17 @@
 }
 
 .confirmHold2 {
-    top: 25.2rem;
-    right: 5rem;
+  
+    top: 24.2rem;
+    right: -3rem;
+
+}
+
+.paypal-powered-by{
+    display: none !important;
+}
+.paypal-powered-by{
+    display: none !important;
 }
 
 .whiteover {

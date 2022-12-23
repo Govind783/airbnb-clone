@@ -7,8 +7,21 @@ import { AiFillStar } from "react-icons/ai"
 import { Link } from 'react-router-dom';
 
 //TAB 3= AMAZING POOLS
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Tab3 = () => {
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+    };
+
     return (
         <div>
             <div className='tab1-hold'>
@@ -19,7 +32,15 @@ const Tab3 = () => {
 
                                 <Link to={`/${item.id}`}>
 
-                                <img src={item.homeMainPic} className="resImg" />
+                                    <Slider {...settings} >
+                                        <img src={item.homeMainPic} className="i resImg" />
+                                        <img src={item.carouselPic1} className="i restImg" />
+                                        <img src={item.carouselPic2} className="i restImg" />
+                                        <img src={item.carouselPic3} className="i restImg" />
+                                        <img src={item.carouselPic4} className="i restImg" />
+                                        <img src={item.carouselPic5} className="i restImg" />
+                                    </Slider>
+
 
                                     <div className="card-body">
                                         <h2 className='font-semibold relative prod-name'>{item.name}</h2>

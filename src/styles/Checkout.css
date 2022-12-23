@@ -2,7 +2,7 @@
 
 .book-heading {
     position: absolute;
-    top: 6rem;
+    top: 9rem;
     left: 10rem;
 }
 
@@ -10,11 +10,27 @@
     width: 29rem;
     height: 38rem;
     border-radius: 20px;
-    top: 10rem;
+    top: 15rem;
     left: 4rem;
     background-color: white !important;
     box-shadow: rgb(0 0 0 / 12%) 7px 16px 56px;
 
+}
+
+.googleAuthBtn{
+    width: 85px !important;
+    background-color: transparent !important;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px 0px;
+    font-size: 16px !important;
+    line-height: 48px;
+    height: 1px !important;
+    display: block;
+    border-radius: 1px;
+    font-family: Roboto, arial, sans-serif;
+    cursor: pointer;
+    user-select: none;
 }
 
 .le{
