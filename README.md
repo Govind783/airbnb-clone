@@ -1,3 +1,15 @@
+The best air-bnb clone built using react and redux. comprising of the home page which offers you to choose the perfect stay from 100's of options.
+the navbar allowing the user to search for any destanation, select the dates and guests and thereby redirecting to the search results page.  the user can sign in with his google account.
+
+the search results page allows the user to filter out options from low to high, couple friendly and even pet friendly options.
+
+upon clicking on a certain place the user is taken to the place detail page which shows more information abot the page such reviewes, a calendar to choose dates from and much more and after the user selects his preffered dates
+
+he is then taken to the checkout page which has paypal, googlepay, visa, amex and mastercard integrated which allows the user to complete the payment
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
