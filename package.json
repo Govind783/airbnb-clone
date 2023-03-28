@@ -51,7 +51,7 @@
     "slick-carousel": "^1.8.1",
     "social-login-buttons": "^0.0.4",
     "styled-components": "^5.3.6",
-    "swiper": "^8.4.5",
+    "swiper": "^8.4.7",
     "use-places-autocomplete": "^4.0.0",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"

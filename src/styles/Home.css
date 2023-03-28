@@ -12,12 +12,12 @@
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 
-.UserLoginImage{
+.UserLoginImage {
     border-radius: 50px !important;
     width: 2.4rem !important;
     height: 2.4rem !important;
     object-fit: cover !important;
-    
+
 
 }
 
@@ -39,11 +39,10 @@
 .tabContentPlaces {
     background-color: rgb(255, 255, 255) !important;
     box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
-    height: auto;
-    height: 25rem !important;
-    width: 109% !important;
+    height: 23rem !important;
+    width: 101% !important;
     top: -3rem;
-    left: 15rem;
+    left: 1rem;
     border-radius: 15px !important;
 
 }
@@ -65,7 +64,7 @@
     transition: all 400ms ease !important;
 }
 
-.secImages{
+.secImages {
     display: flex;
     flex-direction: row;
     gap: 3rem;
@@ -87,11 +86,16 @@
 
 .imgCaptionHold {
     width: 28rem !important;
-    gap: 6rem !important;
+    gap: 6.7rem !important;
     top: -6.5rem !important;
     position: relative;
     row-gap: 11rem !important;
-    left: 4.4rem !important;
+    left: 2.4rem !important;
+}
+
+.secText {
+    gap: 5.5rem;
+    left: 2rem;
 }
 
 .toOpenModal {
@@ -120,7 +124,7 @@
     z-index: 999999999999 !important;
     position: relative !important;
     top: -4rem !important;
-    left: 7.5rem !important;
+    /*left: -7.5rem !important;*/
 }
 
 
@@ -129,11 +133,11 @@
     background-color: white;
     box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
     width: 26rem !important;
-    height: 30rem !important;
-    border-radius: 30px !important;
+    height: 26rem !important;
+    border-radius: 20px !important;
     position: relative;
     top: -2rem !important;
-    left: 20rem !important;
+    left: 2rem !important;
 
 }
 
@@ -214,6 +218,6 @@
     margin-top: 3rem !important;
 }
 
-.locbg{
+.locbg {
     background-color: rgb(235, 235, 235) !important;
 }

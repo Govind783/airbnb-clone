@@ -26,17 +26,15 @@ const CalendarNavBar = () => {
     var daysCheck = differenceInDays(endDate, startDate);
 
 
-    return (<div className='NavBarCalendar'>
+    return (
+        <div className='calendNavBarHodl mx-auto'>
 
-        <DateRangePicker color='black' ranges={[selectionRange]} minDate={new Date()} rangeColors={["#black"]} onChange={handleSelect} />
+            <div className='NavBarCalendar'>
+                <DateRangePicker color='black' ranges={[selectionRange]} minDate={new Date()} rangeColors={["#black"]} onChange={handleSelect} />
+            </div>
+        </div>
 
-        <button className='close-cal rounded-xl'>Close calendar</button>
-
-        {daysCheck == 0 ? <p className={daysCheck == 0 ? "days-0" : "days-updated"}>days selected = 0</p> : <p className='days-updated'>{daysCheck} days selected</p>}
-
-
-
-    </div>)
+    )
 }
 
 export default CalendarNavBar

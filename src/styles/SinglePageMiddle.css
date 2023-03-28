@@ -1,18 +1,17 @@
-
-.spmLine{
-position: absolute;
-top: 98rem;
-left: 5rem;
+.spmLine {
+    position: absolute;
+    top: 98rem;
+    left: 5rem;
 }
 
-.spmLine2{
+.spmLine2 {
     position: absolute;
     top: 116rem;
     left: 5rem;
 
 }
 
-.section1-hold{
+.section1-hold {
     position: absolute;
     top: 85rem;
     display: flex;
@@ -23,7 +22,7 @@ left: 5rem;
     width: 40%;
 }
 
-.section2-hold{
+.section2-hold {
     position: absolute;
     top: 102rem;
     display: flex;
@@ -35,55 +34,80 @@ left: 5rem;
 
 }
 
-.section3{
+.section3 {
     position: absolute;
     top: 120rem;
 }
 
-.spmLine3{
+.spmLine3 {
     position: absolute;
     top: 142rem;
     left: 5rem;
 }
 
-.spm-star{
+.spm-star {
     position: absolute;
     top: 146rem;
     left: 5.5rem;
 }
 
-.spm-rev{
+.spm-rev {
     position: absolute;
     top: 145.7rem;
     left: 9rem;
     font-weight: 400;
 }
 
-.star-calc-hold{
+.star-calc-hold {
     position: absolute;
     display: flex;
     gap: 3rem;
     left: 6rem;
     top: 150rem;
     width: 120rem;
-    
+
 }
 
-.spm-pic{
+.spm-pic {
     width: 31rem;
 }
 
-.review-hold{
+
+
+.review-hold {
     position: absolute;
     top: 160rem;
     left: 10rem;
 }
 
-.spm-review{
+.spm-review {
     width: 58rem;
 }
 
-.spm-rev-btn{
+@media(max-width:600px) {
+    .spm-review {
+        width: 100rem;
+        object-fit: cover;
+        height: 29rem;
+        position: relative;
+        left: -2rem;
+        overflow: visible !important;
+        z-index: 999 !important;
+    }
+
+
+    .review-hold {
+        overflow: visible !important;
+        top: 174rem !important;
+        left: -12rem !important;
+        width: 100rem !important;
+        z-index: 999 !important;
+    }
+
+
+}
+
+.spm-rev-btn {
     position: absolute;
     top: 191rem;
     left: 10rem;
@@ -92,13 +116,13 @@ left: 5rem;
     font-weight: 600;
 }
 
-.agg{
+.agg {
     position: absolute;
     top: 0rem;
     width: 100rem !important;
 }
 
-.modal-box{
+.modal-box {
     max-height: calc(100vh- 5em);
     --tw-bg-opacity: 1;
     background-color: hsl(var(--b1) / var(--tw-bg-opacity));
@@ -125,31 +149,32 @@ left: 5rem;
 
 }
 
-.modal-star{
-font-size: 30px;
-position: absolute;
-top: 3rem;
+.modal-star {
+    font-size: 30px;
+    position: absolute;
+    top: 3rem;
 }
 
-.modal-review{
-font-size: 30px;
-position: absolute;
-top: 2.5rem;
-left: 5rem;
+.modal-review {
+    font-size: 30px;
+    position: absolute;
+    top: 2.5rem;
+    left: 5rem;
 }
 
-.modal-pic{
+.modal-pic {
     width: 19rem;
     position: absolute;
     top: 8rem;
 }
 
-.modal-pic-hold{
+.modal-pic-hold {
     display: flex;
     flex-direction: column;
     gap: 0.1%;
 }
-.modal-hold{
+
+.modal-hold {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -160,7 +185,7 @@ left: 5rem;
     top: 6rem;
 }
 
-.close-cal{
+.close-cal {
     background-color: #ff385c;
     height: 3.5rem;
     width: 12rem;
@@ -168,12 +193,12 @@ left: 5rem;
     font-weight: 600;
     font-size: 18px;
     color: white;
-    top: -13rem;
+    top: 3rem;
     position: relative;
-    left: 35.4rem;
+    left: 9.4rem;
 }
 
-.checkout-btn{
+.checkout-btn {
     background-color: #ff385c;
     height: 3.8rem;
     width: 12rem;
@@ -187,25 +212,24 @@ left: 5rem;
 
 }
 
-.checkout-btn-after{
-    top: 24rem;
+.checkout-btn-after {
+    top: 24.4rem;
     position: absolute;
-
     background-color: #ff385c;
-    height: 3.8rem;
+    height: 3.5rem;
     width: 12rem;
     transition: 400ms;
     font-weight: 600;
     font-size: 18px;
     color: white;
-    left: 18.5rem !important;
+    left: 22.5rem !important;
     border-radius: 14px;
 }
 
-.modal-button{
+.modal-button {
     transition: 400ms;
 }
 
-.modal-button:hover{
- transform: scale(1.07);
+.modal-button:hover {
+    transform: scale(1.07);
 }

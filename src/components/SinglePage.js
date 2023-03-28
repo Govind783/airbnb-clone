@@ -115,8 +115,8 @@ const SinglePage = () => {
 
             <div className='description-hold'>
                 <p> highly rated hosts who are committed to providing great stays for their guests.</p>
-                <p>90% of recent guests gave the check-in process a 5-star rating.</p>
-                <p>No questions asked.</p>
+                <p className='-mt-4 sm:mt-0'>90% of recent guests gave the check-in process a 5-star rating.</p>
+                <p className='mt-4 sm:mt-0'>No questions asked.</p>
 
             </div>
 

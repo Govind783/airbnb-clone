@@ -36,3 +36,27 @@
   color: #ff385c;
 }
 
+
+.gpayAsset1Hold {
+  width: 34rem;
+
+}
+
+
+.googlePayButtonContainer {
+  width: 32rem;
+
+}
+
+
+.gpayAsset2Hold {
+  left: -11rem !important;
+  position: relative !important;
+}
+
+@media(min-width:1250px) {
+  .gpayAsset2Hold {
+    position: relative !important;
+    left: -9rem !important;
+  }
+}

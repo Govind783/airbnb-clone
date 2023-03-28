@@ -26,6 +26,7 @@ const PaymentForm = (props) => {
 
             <TabPanel>
               <Paypal initialPrice={price} nameOfPlace={placesName} daysSelected={days} />
+              
             </TabPanel>
 
 

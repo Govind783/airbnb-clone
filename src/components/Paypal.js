@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "../styles/Paypal.css";
 import paypalbg from "../styles/paypalbg.png"
-import paypalCard from "../styles/paypal-card.png"
+import paypalCard from "../styles/paypal-bgg.png"
 import success from "../styles/ab.gif";
 import { PayPalButtons } from '@paypal/react-paypal-js';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
@@ -14,11 +14,11 @@ const Paypal = (props) => {
     let numOfDays = props.daysSelected;
 
 
-
     return (
         <div className='pa'>
 
-            <div className='paypalbghold'>
+
+            <div className='paypalbghold hidden lg:block'>
                 <img src={paypalbg} className="paypalbg" />
             </div>
 
@@ -97,9 +97,10 @@ const Paypal = (props) => {
 
             </div>
 
-            <div className='loader'>
+            <br />
+            <br />
+            <br />
 
-            </div>
 
         </div>
     )

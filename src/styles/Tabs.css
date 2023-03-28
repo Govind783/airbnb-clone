@@ -1,12 +1,3 @@
-.tabs-hold {
-  display: flex !important;
-  gap: 5% !important;
-  justify-content: center !important;
-  border-bottom: none !important;
-  top: 4rem;
-  position: relative;
-}
-
 .tabs-hold-pushDown {
   display: flex !important;
   gap: 5% !important;
@@ -18,36 +9,7 @@
 
 
 
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar {
-  width: 12px;
-  background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-  background-color: #4e4b4b;
-}
-
-
-
-
-
-.im {
-  width: 69% !important;
-}
-
-@media (max-width : 1250px) {
-
-  .im {
-    width: 8rem !important;
-  }
+@media (max-width : 1345px) {
 
 
   .single-page-hold {
@@ -57,10 +19,6 @@
     width: 41rem !important;
   }
 
-  .css-1xhq01z {
-    position: relative;
-    left: 5rem !important;
-  }
 
   .single-page-main-pic {
     width: 38rem !important;
@@ -112,7 +70,7 @@
   }
 
   .days-0 {
-    left: 3rem !important;
+    left: 2rem !important;
     z-index: -1;
   }
 
@@ -156,10 +114,9 @@
   }
 
   .close-cal {
-    left: -40rem !important;
-    top: 26rem !important;
+    left: -2rem !important;
+    top: 4.9rem !important;
     position: relative !important;
-    height: 3.7rem !important;
 
   }
 
@@ -178,12 +135,12 @@
 
 
   .paypalCardHold {
-    left: 11.5rem !important;
+    left: -2.5rem !important;
     width: 37rem !important;
   }
 
   .paypalbghold {
-    display: none !important;
+    right: 4rem !important;
   }
 
   .credHold {
@@ -199,7 +156,7 @@
     position: absolute !important;
     top: 7.8rem !important;
     font-size: 16px !important;
-    left: 12.2rem !important;
+    left: -1.8rem !important;
     width: 7rem !important;
 
   }
@@ -207,21 +164,21 @@
   .figure-hold3 {
     position: absolute !important;
     top: 13rem !important;
-    left: 13.4rem !important;
+    left: -0.6rem !important;
     gap: 3.4rem !important;
   }
 
   .heading-hold2 {
     position: absolute !important;
     top: 16.6rem !important;
-    left: 14.2rem !important;
+    left: 0.2rem !important;
   }
 
   .confirmnum {
     position: absolute !important;
     top: 27.7rem !important;
     font-size: 16px !important;
-    left: 13.5rem !important;
+    left:-0.5rem !important;
   }
 
   .stayAt2 {
@@ -230,12 +187,13 @@
 
   .hello2 {
     position: absolute !important;
-    top: 16.5rem !important;
+    top: 18.5rem !important;
+    right: 10rem !important;
   }
 
   .confirmHold2 {
-    top: 21.7rem !important;
-    right: -1rem !important;
+    top: 24.7rem !important;
+    right: 10.8rem !important;
   }
 
 
@@ -244,12 +202,6 @@
     left: 28rem !important;
   }
 
-  .modal-open .modal-box,
-  .modal-toggle:checked+.modal .modal-box,
-  .modal:target .modal-box {
-    left: -23rem !important;
-    top: -12rem !important;
-  }
 
   .checkout-btn-after {
     margin-left: -11rem !important;
@@ -269,9 +221,6 @@
     font-size: 20px;
   }
 
-  .css-1xhq01z {
-    left: 3rem !important;
-  }
 
 }
 
@@ -301,6 +250,8 @@
     position: absolute !important;
     left: 0rem !important;
     gap: 2rem !important;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
 
   }
 
@@ -348,8 +299,10 @@
     top: 8rem !important;
     left: 0rem !important;
     width: 100vw !important;
-    border-radius: 0;
+    border-radius: 0 !important;
     height: 15rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
 
   }
 
@@ -396,6 +349,8 @@
     gap: 4rem !important;
     max-width: 95% !important;
     width: 74% !important;
+    padding-right: 0.5rem;
+
 
   }
 
@@ -409,11 +364,15 @@
   .spmLine {
     top: 64rem !important;
     left: 0rem !important;
+    white-space: nowrap;
+
   }
 
   .spmLine2 {
     top: 87rem !important;
     left: 0rem !important;
+    white-space: nowrap;
+
 
   }
 
@@ -433,6 +392,8 @@
   .spmLine3 {
     top: 114rem !important;
     left: 0rem !important;
+    white-space: nowrap;
+
   }
 
   .c {
@@ -525,17 +486,21 @@
 
   .close-cal {
     top: 150rem !important;
-    left: -14rem !important;
+    left: -13rem !important;
     top: 49% !important;
     margin-top: 15rem;
     position: absolute !important;
     bottom: 47rem !important;
-    width: 10rem !important;
+
+    width: 9.6rem !important;
+    font-size: 14px !important;
   }
 
   .checkout-btn-after {
-    margin-left: -21rem !important;
-    width: 11.8rem !important;
+    margin-left: -24rem !important;
+    margin-top: 1rem !important;
+    width: 9.6rem !important;
+    font-size: 14px !important;
 
   }
 
@@ -544,8 +509,9 @@
   }
 
   .line-total {
-    top: 146rem !important;
-    left: 2rem !important;
+    top: 146.6rem !important;
+    left: 0.2rem !important;
+    white-space: nowrap;
   }
 
   .price-total-text {
@@ -576,8 +542,8 @@
   }
 
   .footerLine1 {
-    top: 160rem !important;
-    left: 0rem !important;
+
+    display: none;
   }
 
   .footer-things {
@@ -585,11 +551,7 @@
     left: 2rem !important;
   }
 
-  .review-hold {
-    top: 174rem !important;
-    left: 0rem !important;
-    width: 100rem !important;
-  }
+
 
   .agg {
     top: 17rem !important;
@@ -609,9 +571,7 @@
     top: 199rem !important
   }
 
-  .css-8atqhb {
-    width: 83% !important;
-  }
+
 
   .book-heading {
     white-space: nowrap;
@@ -627,53 +587,60 @@
   .paypalCardHold {
     box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
     width: 36rem !important;
-    left: 15rem !important;
+    left: -2rem !important;
     padding-bottom: 4rem !important;
   }
 
-  .slick-next{
-    left: 18.5rem !important;
-  }
+
 
   .paypalLogo2 {
-    right: -27rem !important;
+    right: -5.3rem !important;
   }
 
   .reciptFor {
     font-size: 14px !important;
     top: 8rem !important;
-    left: 16rem !important;
+    left: -1.8rem !important;
     width: 6rem !important;
   }
 
   .figure-hold3 {
     top: 13rem !important;
-    left: 17.4rem !important;
+    left: -0.6rem !important;
     gap: 3.4rem !important;
+  }
+
+  .val{
+    width: 4.5rem !important;
+    font-size: 14px;
+  }
+
+  .paypalcard{
+    border-radius: 0 !important;
   }
 
   .confirmnum {
     top: 27.5rem !important;
-    left: 17rem !important;
+    left: -1rem !important;
 
   }
 
   .heading-hold2 {
     top: 16.5rem !important;
-    left: 17.7rem !important;
+    left: -0.3rem !important;
 
   }
 
 
   .stayAt2 {
     top: 13rem !important;
-    left: 27.8rem !important;
+    left:6.2rem!important;
     font-size: 13px !important;
   }
 
   .totalCard2 {
     top: 15rem !important;
-    left: 28rem;
+    left: 6.3rem;
     font-size: 14px;
     background: white !important;
     background-color: white !important;
@@ -683,7 +650,7 @@
 
   .confirmHold2 {
     top: 26rem !important;
-    left: 28rem !important;
+    left: 6.1rem !important;
   }
 
   .whiteover {
@@ -696,12 +663,12 @@
     top: 17.7rem !important;
     width: 10rem !important;
     font-size: 14px;
-    left: 28rem !important;
+    left: 6.3rem !important;
 
   }
 
   .place-datails-container {
-    left: -1rem !important;
+    left: 0rem !important;
   }
 
   .checkout-name {
@@ -718,10 +685,34 @@
 
   .checkout-protected {
     font-size: 14px !important;
+    left: 1.6rem !important;
   }
 
   .checkout-logo {
     width: 5rem;
+    position: relative;
+    left: 17rem !important;
+  }
+
+  .checkout-price-heading{
+    left: 8rem !important;
+  }
+
+  .checkout-expense-title{
+    left: 2rem !important;
+  }
+
+  .checkout-expense-calc{
+    left: 17rem !important;
+  }
+
+  .checkout-toal-heading{
+    position: relative;
+    left: 3.84rem !important;
+  }
+
+  .total-checkout{
+    left: 16rem !important;
   }
 
   .walHold {
@@ -738,7 +729,7 @@
   }
 
   .cc {
-    height: 8rem !important;
+    height: 11rem !important;
   }
 
   .gpayHold {
@@ -753,23 +744,6 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -796,4 +770,49 @@
   left: -0rem;
   position: relative;
   justify-content: center;
+}
+
+
+@media(max-width:600px) {
+  .tabImg {
+    padding-bottom: 1.19rem !important;
+  }
+}
+
+.placeTabs-hold {
+  display: flex !important;
+  gap: 5% !important;
+  justify-content: center !important;
+  border-bottom: none !important;
+  top: 4rem;
+  position: relative;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  overflow: scroll !important;
+  padding-bottom: 0.4rem;
+}
+
+
+@media(max-width:1000px) {
+  .placeTabs-hold {
+    justify-content: flex-start !important;
+  }
+}
+
+.placeTabs-hold::-webkit-scrollbar {
+  width: 2rem;
+  height: 5rem;
+  display: inline-block !important;
+}
+
+
+
+.placeTabs-hold::-webkit-scrollbar-track {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.placeTabs-hold::-webkit-scrollbar-thumb {
+  width: 1rem !important;
+  height: 1rem !important;
 }

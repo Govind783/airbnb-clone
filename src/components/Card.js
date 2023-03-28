@@ -8,10 +8,16 @@ import { FaAirbnb } from "react-icons/fa";
 
 const Card = () => {
     return (
-        <div>
-            <div className='gpayHold'>
+        <div className='googlePayPaymentHold'>
 
-                <GooglePayButton className='gpayHold' environment='TEST' paymentRequest={{
+
+            <div className='gpayAsset1Hold flex justify-end'>
+                <img src={creditCard} className="cc" />
+            </div>
+
+            <br />
+            <div className='flex mx-auto googlePayButtonContainer ml-4 mt-4 mb-20 md:ml-0 md:mt-0 md:mb-0'>
+                <GooglePayButton className='' environment='TEST' paymentRequest={{
                     apiVersion: 2,
                     apiVersionMinor: 0,
                     allowedPaymentMethods: [
@@ -55,16 +61,17 @@ const Card = () => {
                 />
             </div>
 
-            <div className='credHold'>
-                <img src={creditCard} className="cc" />
+
+            <br />
+            <div className='gpayAsset2Hold hidden lg:block'>
+                <img src={wallet} className="wal" />
+
             </div>
 
-            <div className='walHold absolute top-60'>
-                <img src={wallet} className="wal" />
-            </div>
 
         </div>
     )
 }
 
 export default Card
+

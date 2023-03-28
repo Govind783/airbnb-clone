@@ -8,6 +8,7 @@ import SinglePage from './components/SinglePage';
 import Checkout from './components/Checkout';
 import { useState } from 'react';
 import SearchDetails from './components/SearchDetails';
+import SearchPageFooter from './components/SearchPageFooter';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <main>
         <BrowserRouter>
           <Routes>
-            <Route path="/" exact element={<>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} /> </>} />
+            <Route path="/" exact element={<>  <Home toggle={open} setToggle={setOpen} /> <TabsComp toggle={open} setToggle={setOpen} />  <SearchPageFooter /> </>} />
             <Route path="/:id" element={<>  <Home /> <SinglePage /> </>} />
             <Route path="/checkout/:id/:days" exact element={<> <Home />  <Checkout /> </>} />
             <Route path="/location/:loc" exact element={<>  <Home /> <SearchDetails /> </>} />
