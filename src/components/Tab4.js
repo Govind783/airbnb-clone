@@ -7,16 +7,19 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/bundle';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import { FiHeart } from "react-icons/fi"
 import { IoBedOutline } from "react-icons/io5"
 import { GiBathtub } from "react-icons/gi"
 import { BsStars } from "react-icons/bs"
 import { BiBuildingHouse } from "react-icons/bi"
+import { Pagination } from "swiper";
 
 
 const Tab4 = () => {
 
-  
+
     return (
         <div>
             <div className='tab1-hold flex justify-center md:mb-48 mb-28 items-center sm:gap-12 gap-0 -mt-16 flex-wrap w-full'>
@@ -38,8 +41,10 @@ const Tab4 = () => {
                                         observer={true}
                                         observeParents={true}
                                         parallax={true}
-
-
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        modules={[Pagination]}
 
                                     >
                                         <SwiperSlide>

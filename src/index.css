@@ -91,12 +91,19 @@ body {
   left: 1.4rem;
 }
 
-@media(min-width:1320px){
-  .calendNavBarHodl{
+@media(min-width:1320px) {
+  .calendNavBarHodl {
     position: relative;
     left: -7rem
   }
 }
+
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+
 
 
 @tailwind base;

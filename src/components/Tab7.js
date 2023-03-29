@@ -8,11 +8,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/bundle';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import { FiHeart } from "react-icons/fi"
 import { IoBedOutline } from "react-icons/io5"
 import { GiBathtub } from "react-icons/gi"
 import { BsStars } from "react-icons/bs"
 import { BiBuildingHouse } from "react-icons/bi"
+import { Pagination } from "swiper";
+
 
 
 //island
@@ -41,8 +45,10 @@ const Tab7 = () => {
                                         observer={true}
                                         observeParents={true}
                                         parallax={true}
-
-
+                                        pagination={{
+                                            clickable: true,
+                                        }}
+                                        modules={[Pagination]}
 
                                     >
                                         <SwiperSlide>
