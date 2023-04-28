@@ -7,6 +7,7 @@ upon clicking on a certain place the user is taken to the place detail page whic
 
 he is then taken to the checkout page which has paypal, googlepay, visa, amex and mastercard integrated which allows the user to complete the payment
 
+DO STAR THE REPO 🌟
 
 
 
